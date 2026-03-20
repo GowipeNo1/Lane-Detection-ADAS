@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['left_lane', 'right_lane']
+
+roboflow:
+  workspace: my-s83zy
+  project: lane-d0qzh
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-s83zy/lane-d0qzh/dataset/8

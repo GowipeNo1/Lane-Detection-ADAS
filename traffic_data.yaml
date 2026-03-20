@@ -1,0 +1,12 @@
+# Train and Val paths (relative to your script or absolute)
+path: F:/Desktop/Lane detection project/datasets  # root dir
+train: images/train  # train images (relative to path)
+val: images/val      # val images (relative to path)
+
+# Number of classes
+nc: 2 
+
+# Class names
+names:
+  0: Traffic_Sign
+  1: Traffic_Light
